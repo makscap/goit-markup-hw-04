@@ -46,10 +46,10 @@
           </ul>
           <ul class="contact-nav list">
             <li class="contact-nav__item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="contact-nav__link contact-nav__link--icon-list"
-              >
+              <a href="mailto:info@devstudio.com" class="contact-nav__link">
+                <svg class="svg-list">
+                  <use href="./images/sprite.svg#icon-list"></use>
+                </svg>
                 <!-- <img
                       src="./images/list.svg"
                       alt="Письмо"
@@ -59,10 +59,10 @@
               >
             </li>
             <li class="contact-nav__item">
-              <a
-                href="tel:+380961111111"
-                class="contact-nav__link contact-nav__link--icon-phone"
-              >
+              <a href="tel:+380961111111" class="contact-nav__link">
+                <svg class="svg-phone">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
                 <!-- <img
                       src="./images/phone.svg"
                       alt="Телефон"
@@ -301,50 +301,69 @@
           <h3 class="join__title">присоединяйтесь</h3>
           <ul class="join__social list">
             <li class="join__item">
-              <a href="" class="join__link join__link--icon-instagram">
+              <a href="" class="join__link">
+                <svg class="svg-insta">
+                  <use href="./images/sprite.svg#icon-insta"></use>
+                </svg>
+
                 <!-- <img
-                  src="./images/foot-instagram.svg"
-                  alt="Инстаграмм"
-                  class="join__icon"
-              /> -->
+                                                                      src="./images/insta.svg"
+                                                                      alt="Инстаграмм"
+                                                                      class="social__icon"
+                                                                  /> -->
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link join__link--icon-facebook">
+              <a href="" class="join__link">
+                <svg class="svg-faceb">
+                  <use href="./images/sprite.svg#icon-faceb"></use>
+                </svg>
                 <!-- <img
-                  src="./images/foot-facebook.svg"
-                  alt="Фейсбук"
-                  class="join__icon"
-              /> -->
+                                                                      src="./images/fb.svg"
+                                                                      alt="Фейсбук"
+                                                                      class="social__icon"
+                                                                  /> -->
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link join__link--icon-twitter">
+              <a href="" class="join__link">
+                <svg class="svg-twit">
+                  <use href="./images/sprite.svg#icon-twit"></use>
+                </svg>
                 <!-- <img
-                  src="./images/foot-twitter.svg"
-                  alt="Твиттер"
-                  class="join__icon"
-              /> -->
+                                                                      src="./images/tw.svg"
+                                                                      alt="Твиттер"
+                                                                      class="social__icon"
+                                                                  /> -->
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link join__link--icon-linkedin">
+              <a href="" class="join__link">
+                <svg class="svg-linked">
+                  <use href="./images/sprite.svg#icon-linked"></use>
+                </svg>
                 <!-- <img
-                  src="./images/foot-linkedin.svg"
-                  alt="Линкедин"
-                  class="join__icon"
-              /> -->
+                                                                      src="./images/in.svg"
+                                                                      alt="Линкедин"
+                                                                      class="social__icon"
+                                                                  /> -->
               </a>
             </li>
           </ul>
         </section>
 
-        <section>
+        <section class="subscribe-section">
           <h3 class="subscribe__title">подписаться на рассылку</h3>
-          <input type="text" placeholder="E-mail" class="subscribe__input" />
-          <button class="subscribe__button subscribe__button--icon">
-            Подписаться
-          </button>
+          <div class="button-div">
+            <input type="text" placeholder="E-mail" class="subscribe__input" />
+            <button class="subscribe__button">
+              Подписаться
+              <svg class="svg-send">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+          <!-- </div> -->
         </section>
       </div>
 
