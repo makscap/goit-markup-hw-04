@@ -411,7 +411,6 @@ img {
 }
 .person__item {
   background-color: var(--text-white);
-  border: 1px solid #eeeeee;
 
   text-align: center;
   padding-bottom: 24px;
