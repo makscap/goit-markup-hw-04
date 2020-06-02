@@ -888,12 +888,16 @@ img {
   text-align: center;
   border-radius: 4px;
   border: none;
+
+  padding: 6px 22px;
 }
+
 .option__button:hover,
 .option__button:focus {
   background-color: var(--text-blue);
   color: var(--text-white);
 }
+
 /* CARD-SET MENU */
 .card-set {
   display: flex;
